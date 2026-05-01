@@ -5,7 +5,7 @@ Premium Unisex Hair Studio | Darwin’s Signature Hair Experience (Australia)
 ---
 
 ## 🌐 Live Website
-👉 (Add your GitHub Pages link here after deployment)
+👉 Add your GitHub Pages link here after deployment
 
 Example:
 https://yourusername.github.io/lumina-hair-studio/
@@ -14,13 +14,8 @@ https://yourusername.github.io/lumina-hair-studio/
 
 ## 📌 About This Project
 
-Lumina Hair Studio is a **fully responsive multi-page salon website** built using:
-
-- HTML5
-- Inline CSS (modern layout styling)
-- GitHub Pages (for deployment)
-
-This project was created to showcase a **premium luxury salon website design** suitable for a real business portfolio.
+Lumina Hair Studio is a **multi-page luxury salon website** built using HTML and CSS.  
+It is designed as a **real-world business portfolio website** for a premium hair salon in Australia.
 
 ---
 
@@ -28,22 +23,22 @@ This project was created to showcase a **premium luxury salon website design** s
 
 - Home Page
 - Services Page
-- About Us Page
+- About Page
 - Gallery Page
 - Contact Page
 
-Each page is fully separated and linked through a global navigation bar.
+Each page is fully separated and connected via a navigation menu.
 
 ---
 
 ## 🎨 Design Features
 
 - Luxury black & gold theme
-- Modern clean UI
-- Multi-page structure (not single scroll page)
-- Consistent navigation across all pages
-- Mobile-friendly layout (basic responsive structure)
-- Professional salon branding
+- Modern premium UI design
+- Multi-page structure (not single scroll site)
+- Mobile responsive layout (basic optimization added)
+- Clean navigation across all pages
+- Salon-style branding and layout
 
 ---
 
@@ -60,23 +55,34 @@ Each page is fully separated and linked through a global navigation bar.
 
 ## ⚠️ Disclaimer
 
-This is a **portfolio/demo project** created to demonstrate web development skills.  
-It does not represent a real operational business.
+This is a **portfolio/demo project** created to demonstrate web development and UI design skills.  
+It is not a real business website.
 
 ---
 
-## 🚀 Purpose
+## 🚀 Purpose of This Project
 
 This project was built to showcase:
-- Front-end development skills
+
 - Multi-page website structure
-- UI/UX design for salon industry
-- GitHub Pages deployment
+- Front-end HTML/CSS skills
+- Real business website design style
+- GitHub Pages deployment readiness
+- Portfolio-level UI design
 
 ---
 
 ## 👨‍💻 Developer
 
-Created as a portfolio project for learning and showcasing modern website building skills.
+Created as a learning + portfolio project to demonstrate modern web design skills.
+
+---
+
+## 🚀 Next Upgrade Ideas
+
+- Add JavaScript animations
+- Add real booking system
+- Improve mobile responsiveness further
+- Add real images for gallery
 
 ---
