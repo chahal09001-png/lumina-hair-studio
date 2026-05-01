@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,35 @@
 
   <!-- MOBILE FIX -->
   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      background-image: url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    /* dark overlay */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.65);
+      z-index: -1;
+    }
+
+    a {
+      transition: 0.3s ease;
+    }
+
+    a:hover {
+      color: #D4AF37 !important;
+    }
+
     @media (max-width: 768px) {
       header {
         flex-direction: column;
@@ -20,17 +50,20 @@
       }
 
       h1 {
-        font-size: 32px !important;
+        font-size: 34px !important;
       }
     }
   </style>
 
 </head>
 
-<body style="margin:0; background:#0F0F0F; color:white; font-family:Arial;">
+<body>
+
+<!-- DARK OVERLAY -->
+<div class="overlay"></div>
 
 <!-- NAVBAR -->
-<header style="display:flex; justify-content:space-between; align-items:center; padding:20px; border-bottom:1px solid #333;">
+<header style="display:flex; justify-content:space-between; align-items:center; padding:20px; border-bottom:1px solid rgba(255,255,255,0.1);">
 
   <div style="color:#D4AF37; font-weight:bold; font-size:18px;">
     Lumina Hair Studio
@@ -47,28 +80,35 @@
 </header>
 
 <!-- HERO -->
-<section style="text-align:center; padding:100px 20px;">
+<section style="text-align:center; padding:140px 20px;">
 
-  <h1 style="color:#D4AF37; font-size:48px; margin:0;">
+  <h1 style="color:#D4AF37; font-size:58px; margin:0;">
     Lumina Hair Studio
   </h1>
 
-  <p style="font-size:18px; color:#ccc; margin-top:10px;">
-    Premium Unisex Hair Studio | Darwin’s Signature Hair Experience
+  <p style="font-size:18px; color:#eee; margin-top:10px;">
+    Premium Unisex Hair Studio | Luxury Styling Experience
   </p>
 
-  <p style="max-width:600px; margin:20px auto; color:#aaa; line-height:1.6;">
-    Experience luxury hair styling with expert professionals, modern techniques, and personalised care designed to enhance your confidence and style.
+  <p style="max-width:600px; margin:20px auto; color:#bbb; line-height:1.6;">
+    We create modern hairstyles, luxury cuts, and personalised transformations that enhance your confidence and style.
   </p>
 
-  <a href="services.html"
-     style="display:inline-block; margin-top:25px; padding:12px 25px; background:#D4AF37; color:black; text-decoration:none; border-radius:25px; font-weight:bold;">
-     Explore Services
-  </a>
+  <!-- BUTTONS -->
+  <div style="margin-top:30px;">
+    <a href="services.html"
+       style="background:#D4AF37; color:black; padding:14px 28px; border-radius:30px; text-decoration:none; font-weight:bold; margin:5px;">
+       Explore Services
+    </a>
+
+    <a href="contact.html"
+       style="border:1px solid #D4AF37; color:#D4AF37; padding:14px 28px; border-radius:30px; text-decoration:none; font-weight:bold; margin:5px;">
+       Book Now
+    </a>
+  </div>
 
 </section>
 
 </body>
 </html>
-
   
