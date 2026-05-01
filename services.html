@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | Lumina Hair Studio</title>
 
   <style>
+    body {
+      margin: 0;
+      background: #0F0F0F;
+      color: white;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    a {
+      transition: 0.3s ease;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #D4AF37 !important;
+    }
+
+    div {
+      transition: 0.3s ease;
+    }
+
+    div:hover {
+      transform: translateY(-5px);
+    }
+
     @media (max-width: 768px) {
       header {
         flex-direction: column;
@@ -23,10 +49,9 @@
       }
     }
   </style>
-
 </head>
 
-<body style="margin:0; background:#0F0F0F; color:white; font-family:Arial;">
+<body>
 
 <!-- NAVBAR -->
 <header style="display:flex; justify-content:space-between; align-items:center; padding:20px; border-bottom:1px solid #333;">
@@ -36,46 +61,59 @@
   </div>
 
   <nav>
-    <a href="index.html" style="margin:0 10px; color:white; text-decoration:none;">Home</a>
-    <a href="services.html" style="margin:0 10px; color:#D4AF37; text-decoration:none;">Services</a>
-    <a href="about.html" style="margin:0 10px; color:white; text-decoration:none;">About</a>
-    <a href="gallery.html" style="margin:0 10px; color:white; text-decoration:none;">Gallery</a>
-    <a href="contact.html" style="margin:0 10px; color:white; text-decoration:none;">Contact</a>
+    <a href="index.html" style="margin:0 10px; color:white;">Home</a>
+    <a href="services.html" style="margin:0 10px; color:#D4AF37;">Services</a>
+    <a href="about.html" style="margin:0 10px; color:white;">About</a>
+    <a href="gallery.html" style="margin:0 10px; color:white;">Gallery</a>
+    <a href="contact.html" style="margin:0 10px; color:white;">Contact</a>
   </nav>
 
 </header>
-<section style="text-align:center; padding:40px;">
-  <h1 style="color:#D4AF37; font-size:42px;">Our Services</h1>
-  <p style="color:#ccc;">Luxury hair services crafted for perfection</p>
+
+<!-- TITLE -->
+<section style="text-align:center; padding:50px 20px;">
+  <h1 style="color:#D4AF37; font-size:42px; margin:0;">
+    Our Services
+  </h1>
+  <p style="color:#ccc; margin-top:10px;">
+    Luxury hair services crafted for perfection
+  </p>
 </section>
 
+<!-- SERVICES LIST -->
 <section style="max-width:900px; margin:auto; padding:20px;">
 
   <div style="background:#111; padding:20px; margin-bottom:15px; border-radius:10px;">
     <h3 style="color:#D4AF37;">Haircut & Styling</h3>
-    <p>Precision haircut with luxury finish</p>
+    <p>Precision haircut with luxury styling finish</p>
     <p>⏱ 45 min | 💰 From $40 AUD</p>
   </div>
 
   <div style="background:#111; padding:20px; margin-bottom:15px; border-radius:10px;">
     <h3 style="color:#D4AF37;">Hair Colour</h3>
-    <p>Professional salon-grade colouring</p>
+    <p>Professional colouring using salon-grade products</p>
     <p>⏱ 1.5–2 hrs | 💰 From $120 AUD</p>
   </div>
 
   <div style="background:#111; padding:20px; margin-bottom:15px; border-radius:10px;">
     <h3 style="color:#D4AF37;">Hair Treatment</h3>
-    <p>Deep repair for smooth healthy hair</p>
+    <p>Deep repair treatment for smooth healthy hair</p>
     <p>⏱ 1 hr | 💰 From $80 AUD</p>
   </div>
 
   <div style="background:#111; padding:20px; margin-bottom:15px; border-radius:10px;">
     <h3 style="color:#D4AF37;">Beard Grooming</h3>
-    <p>Sharp clean professional beard styling</p>
+    <p>Sharp beard shaping and clean professional finish</p>
     <p>⏱ 30 min | 💰 From $25 AUD</p>
   </div>
 
 </section>
+
+<!-- BOOK BUTTON -->
+<a href="contact.html"
+   style="position:fixed; bottom:20px; right:20px; background:#D4AF37; color:black; padding:12px 18px; border-radius:30px; font-weight:bold; z-index:999;">
+   Book Appointment
+</a>
 
 </body>
 </html>
